@@ -1,0 +1,35 @@
+body{
+  font-family: 'tradegothiclt-bold', sans-serif;
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}
+
+h1{
+  font-size: 3em;
+  color: white;
+}
+
+span{
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret{
+  50%{
+    border-color: transparent;
+  }
+}
+
+*{ color:#fff; text-decoration: none;
+}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
